@@ -182,7 +182,7 @@ form button {
     /* justify-content: space-evenly; */
 }
 .Latest .country{
-    width: auto;
+    width: 200px;
     height: 200px;
     background-color: rgb(132, 249, 132);
     margin-bottom: 1cm;
@@ -192,7 +192,7 @@ form button {
     border-radius: 25px;
 }
 .Latest .date{
-    width:auto;
+    width:200px;
     height: 200px;
     background-color:rgb(132, 249, 132);
     font-size: larger;
@@ -211,7 +211,7 @@ font {
     justify-content: space-evenly;
     /* background-color: orange; */
     flex-wrap: wrap;
-    width: 85%;
+    width: 83%;
     height: auto;
     /* margin: 1cm; */
 }
@@ -219,7 +219,7 @@ font {
     display: flex;
     /* border-style: dashed; */
     background-color:aliceblue;
-    width: 90%;
+    width: 85%;
     height: 300px;
     /* justify-content: space-evenly; */
     /* flex-wrap: wrap;  */
@@ -309,10 +309,15 @@ font {
     font-weight: bold;
     font-size: 30px;
     margin-bottom: 0.5cm;
+    /* overflow-wrap: break-word; */
+    /* overflow: hidden; */
+
 }
 .pbody{
     font-size: 20px;
     margin-bottom: 0.5cm;
+    /* overflow: scroll; */
+
 }
 .read{
     /* text-align: right; */
