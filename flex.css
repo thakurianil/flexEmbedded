@@ -1,3 +1,4 @@
+
 .container {
     display: flex;
     background-color: orange;
@@ -16,6 +17,7 @@
     width: auto;
     height: 100px;
     justify-content: space-between;
+    flex-direction: row;
     padding-right: 30px;
     padding-left: 30px;
     /* flex-wrap: wrap; */
@@ -23,10 +25,13 @@
     /* overflow: scroll; */
 
 }
-
-.container .navbar {
+p:hover{
+    font-size: larger;
+    color: aliceblue;
+}
+.container section{
     height: 50px;
-    width: 100px;
+    /* width: autopx; */
     margin: 10px;
     /* background-color: aqua; */
     text-align: center;
@@ -38,7 +43,9 @@
 
 .container .navbar1 {
     height: 50px;
-    width: 100px;
+    display: flex;
+    flex-direction: column;
+    /* width: 100px; */
     margin: 10px;
     /* background-color: aqua; */
     text-align: center;
@@ -98,6 +105,8 @@ p {
     align-content: center;
     /* text-align: center; */
     background-image: url(./assets/b.jpg);
+    background-attachment: fixed;
+    backdrop-filter: blur(200px);
     background-size: cover;
     /* background-position: center;  */
     /* padding-left: 40%; */
@@ -114,6 +123,8 @@ p {
     text-align: center;
     font-size: larger;
     border-radius: 45px;
+    backdrop-filter: blur(200px);
+
 }
 
 .mainfont {
@@ -185,6 +196,7 @@ form button {
     display: flex;
     flex-wrap: wrap;
     margin: 2cm;
+    /* flex-direction: column; */
     /* justify-content: space-evenly; */
 }
 .Latest .country{
@@ -217,7 +229,7 @@ font {
     justify-content: space-evenly;
     /* background-color: orange; */
     flex-wrap: wrap;
-    width: 83%;
+    width: 900px;
     height: auto;
     /* margin: 1cm; */
 }
