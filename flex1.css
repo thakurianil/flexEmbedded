@@ -14,9 +14,7 @@
     }
 
 }
-body{
-    margin: 1cm;
-}
+
 .container {
     display: flex;
     /* background-color: orange; */
