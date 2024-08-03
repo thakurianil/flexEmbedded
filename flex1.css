@@ -1,3 +1,19 @@
+@media screen and (width <1000px) {
+    .logo-font{
+        flex-direction: column;
+
+    }
+    form{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 10px;
+        width: auto;
+        align-content: center;
+        
+    }
+
+}
 body{
     margin: 1cm;
 }
@@ -240,6 +256,7 @@ p:hover{
     margin: 1cm;
 } */
 
+
 form input {
     width: 40%;
     height: 50px;
@@ -272,3 +289,4 @@ form button {
     color: aliceblue;
     height: 100px;
 }
+
