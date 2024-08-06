@@ -1,7 +1,6 @@
 @media screen and (width <1000px) {
     .logo-font{
         flex-direction: column;
-
     }
     form{
         display: flex;
@@ -9,33 +8,23 @@
         flex-direction: column;
         margin: 10px;
         width: auto;
-        align-content: center;
-        
+        align-content: center;        
     }
 
 }
 
 .container {
     display: flex;
-    /* background-color: orange; */
     width: auto;
-
     height: auto;
     justify-content: space-evenly;
     flex-wrap: wrap;
-
-
     flex-wrap: wrap;
     align-items: center;
-    /* padding-left: 30px; */
-    /* padding-right: 30px; */
 }
 .container .navbar {
     height: auto;
     display: flex;
-    /* padding: 0 0 30px 30px; */
-    /* background-color: aliceblue; */
-    /* margin: 10px; */
     width: 100%;
     background-color: orange;
     text-align: center;
@@ -48,17 +37,12 @@
     font-size: 30px;
     padding: 20px;
     align-content: center;
-
-    /* background-color: aliceblue; */
 }
 .logo-font{
     width: auto;
     display: flex;
-    /* background-color: aliceblue; */
-    /* flex-direction: row; */
     flex-wrap: wrap;
     align-items: center;
-    /* padding: 20px; */
     justify-content: space-evenly;
 }
 .logo-font i{
@@ -80,7 +64,6 @@ p:hover{
     width: 100%;
     height: 50vh;
     align-content: center;
-    /* text-align: center; */
     background-image: url(./assets/b.jpg);
     background-attachment: fixed;
     backdrop-filter: blur(200px);
@@ -100,71 +83,53 @@ p:hover{
     color: white;
 }
 .latest{
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* flex-wrap: wrap; */
     width: 100%;
     font-size: 40px;
-    /* justify-content: flex-start; */
     margin: 1cm;
 }
 .latest-left{
     width: 70%;
-    /* padding: 1cm; */
 }
 
 .post1 {
     display: flex; 
     flex-wrap: wrap;
     background-color:aliceblue;
-    /* width: 100%; */
-    /* height: 500px; */
     padding: 1cm;
     justify-content: space-between;
-
-    /* align-items: center; */
     border-radius: 20px;
     margin: 20px;
     box-shadow: 5px 5px #888888;
-    /* border-block-start-color: blue; */
 }
 .postbody{
     padding: 0.5cm;
     width: 65%;
+    text-align: right;
 }
 .post1 img{
-    /* margin: 1cm; */
-    /* height: 100%; */
-    width: 30%;
-    /* height: 100%; */
+     width: 30%;
+}
+.phead{
+    color: blue;
+    text-align: left;
 }
 
-/* .phead{
-    font-size: 30px;
-    color: blue;
-    font-weight: bolder;
-} */
 .pbody{
     font-size: 20px;
     margin: 0.5cm 0  0.5cm 0 ;
+    text-align: left;
 }
 .postbody .read{
-    
-    /* width: 30%; */
-    height: 50px;
-    
+    height: 50px;    
     font-size: medium;
-    align-content: right;
     background-color: orangered;
     border-radius: 15px;
     border: none;
 }
 
 .recommendbody .read{
-    
     width: 100%;
     height: 50px;
-    
     font-size: medium;
     align-content: right;
     background-color: orangered;
@@ -172,68 +137,38 @@ p:hover{
     border: none;}
 
 .sides{
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* flex-wrap: wrap; */
-
-    /* width: auto; */
-    /* justify-content: space-around; */
-    /* /* width: 200px; */
-    /* height: auto; */
         width: 300px;
-    /* background-color: rgb(132, 249, 132); */
     font-size: 20px;
     text-align: left;
-    /* align-content: center; */
-    /* align-content: center; */
-    /* padding: 1cm; */
 }
 .country{
     padding: 15px ;
     background-color: bisque;
     border-radius: 25px;
-
 }
 .date{
     background-color: bisque;
     border-radius: 25px;
     margin: 10px;
     padding: 15px ;
-
 }
 
 .recommendation{
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* flex-wrap: wrap; */
-    /* width: 100%; */
     font-size: 40px;
-    /* justify-content: flex-start; */
     padding: 2cm;
     background-color: beige;
 }
 .images {
-    /* display: flex;  */
-    /* flex-wrap: wrap; */
     background-color:aliceblue;
     width: 45%;
     height: auto;
-    /* padding: 1cm; */
     margin: 30px 30px 0 0 ;
-    /* justify-content: space-evenly; */
-    /* flex-direction: row; */
-    /* align-items: center; */
     border-radius: 20px;
-    /* margin: 20px; */
     box-shadow: 5px 5px #888888;
-    /* border-block-start-color: blue; */
 }
 .recommendation img{
     width: 100%;
     border-radius: 20px 20px 0 0 ;
-
-    /* align-items: center; */
-
 }
 
 .recommendbody{
@@ -250,17 +185,11 @@ p:hover{
     margin-bottom: 1cm;
 }
 
-/* .latest .container .latest-right{
-    margin: 1cm;
-} */
-
-
 form input {
     width: 40%;
     height: 50px;
     font-size: 10px;
     padding-left: 0.5cm;
-    /* align-content: center; */
     font-size: 20px;
     border-radius: 15px;
     border-color: #888888;
@@ -270,12 +199,11 @@ form input {
 form button {
     width: 100px;
     height: 50px;
-    /* align-content: center; */
     font-size: 20px;
     border-radius: 15px;
     border-color: #888888;
     opacity: 50%;
-    background-color: lightgray;
+    background-color: lightgray;  
 }
 
 .footer {
