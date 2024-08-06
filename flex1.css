@@ -176,6 +176,7 @@ p:hover{
 }
 .subscribe {
     margin: 50px;
+    width: 100%;
     align-content: center;
     text-align: center;
 }
@@ -185,8 +186,9 @@ p:hover{
     margin-bottom: 1cm;
 }
 
+
 form input {
-    width: 40%;
+    width: 15%;
     height: 50px;
     font-size: 10px;
     padding-left: 0.5cm;
