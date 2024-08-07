@@ -6,7 +6,7 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     flex-wrap: wrap;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .container .navbar {
