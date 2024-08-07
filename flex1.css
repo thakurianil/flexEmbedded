@@ -257,6 +257,15 @@ form button {
         margin: 10px;
         width: auto;
         align-content: center;
+    }    
+    form input{
+        margin: 10px;
+        width: 100%;
+    }
+    form button{
+        margin: 5px;
+        margin-left: 15%;
+        width: 90%;
     }
 
 }
