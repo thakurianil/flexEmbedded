@@ -6,7 +6,6 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     flex-wrap: wrap;
-    align-items: center;
 }
 
 .container .navbar {
@@ -241,6 +240,9 @@ form button {
         width: auto;
     }
     .latest-left{
+        width: 100%;
+    }
+    .sides{
         width: 100%;
     }
     
